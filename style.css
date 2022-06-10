@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+	font-family: 'Nunito', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*barre de de nav*/
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	background: black;
+	position: sticky;
+	top: 0px;
+	margin-bottom: -10px;
+}
+nav h1{
+	font-size: 30px;
+	color: white;
+}
+nav div.onglets{
+	display: flex;
+	flex-wrap: wrap;
+}
+nav div.onglets p{
+	font-size: 17px;
+	margin-right: 15px;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+nav div.onglets input{
+	margin: 8px 20px;
+	padding: 15px;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	background-color: #F7F7F7;
+}
+nav div.onglets a{
+	font-size: 17px;
+	margin-right: 15px;
+	cursor: pointer;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+/*header*/
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+header h1{
+	font-size: 50px;
+	max-width: 500px;
+	text-align: center;
+}
+header button{
+	padding: 15px 20px;
+	font-size: 20px;
+	border: none;
+	border-radius: 30px;
+	outline: none;
+	cursor: pointer;
+}
+header button a{
+	text-decoration: none;
+	color: black;
+}
+header button:hover{
+	opacity: 70%;
+}
+/*meilleures ventes*/
+.bstsl{
+	margin: 30px;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.cards .card{
+	margin-right: 35px;
+	cursor: pointer;
+
+}
+.cards .card img{
+	width: 350px;
+	height: 350px;
+}
+.cards .card .card-title{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-size: 20px;
+}
+.cards .card .description p{
+	margin-top: -10px;
+}
+/*pied de page*/
+footer{
+	margin-top: 100px;
+	background-color:black ;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	color: white;
+}
+footer img.visa{
+	width: 3%;
+	height: 3%;
+}
+/*Défilement d'images*/
+button.button{
+	padding: 15px 20px;
+	font-size: 20px;
+	border: none;
+	border-radius: 30px;
+	outline: none;
+	cursor: pointer;
+}
+h1.des{
+	text-align: left;
+	margin-left: 200px;
+}
+p.desc{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 200px;
+}
+img.imgprod{
+	margin-left: 200px;
+}
+div.chimg{
+	margin-left: 200px;
+}
+div.txt{
+	display: left;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+a.pay{
+	margin-left: 200px;
+}
+button.boutton{
+	padding: 15px 20px;
+	font-size: 25px;
+	border: none;
+	border-radius: 30px;
+	outline: none;
+	cursor: pointer;
+	background-color: black;
+	color: white;
+}
+button.boutton:hover{
+	opacity: 70%;
+}
+button.button:hover{
+	opacity: 70%;
+}
+h1.tprod{
+	margin-left: 200px;
+	font-size: 50px;
+}
+p.price{
+	margin-left: 450px;
+	font-size: 25px;
+}
